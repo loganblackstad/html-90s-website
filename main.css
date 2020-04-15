@@ -1,0 +1,85 @@
+/*
+* === GLOBAL Styling: ===
+* put a red border around all html elements
+* center everything
+* set the font families
+*/
+
+* {
+  /* border: 1px solid rgb(255, 0, 0); */
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  align-content: center;
+}
+
+.main-header img {
+  width: 50%;
+}
+
+.page-nav {
+  width: 30%;
+  border: none;
+  text-align: center;
+  margin: auto;
+}
+
+div.header {
+  border: 1px solid;
+  border: 1px solid rgb(204, 204, 204);
+  width: 800px;
+  margin: auto;
+}
+
+.page-text {
+  text-align: justify;
+  align-content: center;
+  margin: auto;
+  width: 80%;
+}
+
+.page-text img {
+  width: 200px;
+  height: auto;
+  text-align: center;
+  align-content: center;
+}
+
+img {
+  width: 300px;
+  height: auto;
+  margin: auto;
+}
+
+.main-header {
+  text-align: center;
+}
+
+/*
+* === CONTACT PAGE: Table Styling ===
+*/
+
+.tg {
+  border: none;
+  align-self: auto;
+  margin: auto;
+}
+
+.tg .tg-0lax {
+  border: none;
+  text-align: left;
+  vertical-align: middle;
+}
+
+.page-nav td {
+  width: 25%;
+  padding: 5px;
+  border: none;
+}
+
+.page-nav td:hover {
+  background-color: rgba(0, 200, 0, 0.2);
+}
+
+.game {
+  display: inline;
+}
